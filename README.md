@@ -18,8 +18,8 @@ ArcGIS Pro (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) - Ma
 
 3) In the directory containing the downloaded ARIA-GUNW *.nc files (files should look like: S1-GUNW-A-R-142-tops-20150811_20150730-101055-00116E_00030N-PP-7dbd-v3_0_1.nc), run the aria-tools program ariaTSsetup.py:
    ```
-   ariaTSsetup.py -f "./*.nc" -w ./NEW_OUTPUT_DIR_NAME --bbox "BOUNDING_BOX_COORDS"
+   ariaTSsetup.py -f "./*.nc" -w ./STACK_DIR_NAME --bbox "BOUNDING_BOX_COORDS"
    ```
    Perform in the directory containing all the downloaded .nc files. Bounding box (--bbox) optional. The output directory should have multiple subdirectories, such as azimuthAngle, bPerpendicular, coherence, connectedComponents, DEM, stack, etc.
 4) Download Mintpy in the same environment as aria-tools by following the instructions here:
-5) In the newly created NEW_OUTPUT_DIR_NAME stack directory, 
+5) In the newly created STACK_DIR_NAME stack directory, run ```smallbaselineApp.py -g``` to generate a time-series analysis template (smallbaselineApp.cfg should appear in your STACK_DIR_NAME). Before running ```smallbaselineApp.py```, you may need to change some defaults in the smallbaselineApp.cfg file to ensure the correct files in the STACK_DIR_NAME are being referenced by the program. See
