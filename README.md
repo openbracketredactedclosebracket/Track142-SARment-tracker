@@ -28,3 +28,16 @@ See [ARIA File Names](ARIA_filenames.txt) for full list of files used.
 5) In the newly created STACK_DIR_NAME stack directory, run ```smallbaselineApp.py -g``` to generate a time-series analysis template (smallbaselineApp.cfg should appear in your STACK_DIR_NAME). Before running ```smallbaselineApp.py```, you may need to change some defaults in the smallbaselineApp.cfg file to ensure the correct files in the STACK_DIR_NAME are being referenced by the program. See [Mintpy configuration](smallbaselineApp.cfg) for the configuration used. Once the default configuration is modified, you can run smallbaselineApp.cfg. You may also download the configuration as a .txt file and run ```smallbaselineApp.py CONFIG_NAME.txt``` to run with the modified configurations. Skip the tropospheric step when running.
 6) Check the newly created `pic` folder to see output graphs. You may also use `graph.py` to view and save outputs, such as [velocity.tif](Output_Data/velocity.tif). See [pic_example](Output_Data/pic_example) for graphic outputs.
 7) In ArcGIS, an Area of Interest can be specified to view coherence and velocity in a specific mining area.
+
+**Example Outputs:** \
+
+<img width="1950" height="2227" alt="Entire_Velocity_AvgCoh" src="https://github.com/user-attachments/assets/689be169-5056-42dc-882b-b01b300e89a3" />
+Output Velocity and Spatial Coherence
+
+<img width="2165" height="2137" alt="Entire_Velocity_Stats" src="https://github.com/user-attachments/assets/c9a9ab2f-7589-4250-b22d-f09bbf15c800" />
+Output Time-Series Velocity and Average Velocity Statistics
+
+<img width="2649" height="2047" alt="Velocity_WulishanMine" src="https://github.com/user-attachments/assets/c5bff7de-6bdf-4e0a-b017-4f1c48d6e6a0" />
+Velocity in the Wulishan mining area Southeast of Tongling
+
+
