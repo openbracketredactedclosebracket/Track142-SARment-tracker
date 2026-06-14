@@ -34,7 +34,7 @@ See [ARIA File Names](ARIA_filenames.txt) for full list of files used.
 <img width="1950" height="2227" alt="Entire_Velocity_AvgCoh" src="https://github.com/user-attachments/assets/689be169-5056-42dc-882b-b01b300e89a3" />
 Output Velocity and Spatial Coherence
 
-<img width="2165" height="2137" alt="Entire_Velocity_Stats" src="https://github.com/user-attachments/assets/c9a9ab2f-7589-4250-b22d-f09bbf15c800" />
+<img width="2165" height="2137" alt="Entire_Velocity_IndividualandStats" src="https://github.com/user-attachments/assets/f594622f-455c-4e98-a92f-bac63a32653e" />
 Output Time-Series Velocity and Average Velocity Statistics
 
 <img width="2649" height="2047" alt="Velocity_WulishanMine" src="https://github.com/user-attachments/assets/c5bff7de-6bdf-4e0a-b017-4f1c48d6e6a0" />
