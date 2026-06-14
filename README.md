@@ -13,7 +13,10 @@ Mintpy (https://github.com/insarlab/mintpy) - Processing stack to produce time-s
 ArcGIS Pro (https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) - Manipulation and analysis of output files in the AOI \
 \
 **General Workflow:**
-1) Download ARIA-GUNW Sentinel-1 Data from ASF Vertex Data Search (or with aria-tools package). In this study, Track 142, Frame 22013 was used. Each downloaded image is an interferogram pair with time interval 7-21 days between the two parts of the pair. ARIA data may also be processed and downloaded in the terminal using aria-tools. (https://hyp3-docs.asf.alaska.edu/guides/gunw_product_guide/) <img width="1747" height="968" alt="image" src="https://github.com/user-attachments/assets/b50ca696-d276-420d-afa2-6c2f9c68c15f" /> <img width="840" height="357" alt="image" src="https://github.com/user-attachments/assets/5eea652a-4fb2-4b30-a7a0-916ca6149b88" /> 
+1) Download ARIA-GUNW Sentinel-1 Data from ASF Vertex Data Search (or with aria-tools package). In this study, Track 142, Frame 22013 was used. Each downloaded image is an interferogram pair with time interval 7-21 days between the two parts of the pair. ARIA data may also be processed and downloaded in the terminal using aria-tools. (https://hyp3-docs.asf.alaska.edu/guides/gunw_product_guide/). 
+See [ARIA File Names](ARIA_filenames.txt) for full list of files used. 
+
+<img width="1747" height="968" alt="image" src="https://github.com/user-attachments/assets/b50ca696-d276-420d-afa2-6c2f9c68c15f" /> <img width="840" height="357" alt="image" src="https://github.com/user-attachments/assets/5eea652a-4fb2-4b30-a7a0-916ca6149b88" /> 
 2) Follow the instructions here: https://github.com/aria-tools/ARIA-tools#installation to download conda and mamba and create an environment in the terminal for using aria-tools package.  
 
 3) In the directory containing the downloaded ARIA-GUNW *.nc files (files should look like: S1-GUNW-A-R-142-tops-20150811_20150730-101055-00116E_00030N-PP-7dbd-v3_0_1.nc), run the aria-tools program ariaTSsetup.py:
