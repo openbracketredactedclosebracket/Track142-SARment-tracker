@@ -29,7 +29,7 @@ See [ARIA File Names](ARIA_filenames.txt) for full list of files used.
 6) Check the newly created `pic` folder to see output graphs. You may also use `graph.py` to view and save outputs, such as [velocity.tif](Output_Data/velocity.tif). See [pic_example](Output_Data/pic_example) for graphic outputs.
 7) In ArcGIS, an Area of Interest can be specified to view coherence and velocity in a specific mining area.
 
-**Example Outputs:** \
+**Example Outputs:** 
 
 <img width="1950" height="2227" alt="Entire_Velocity_AvgCoh" src="https://github.com/user-attachments/assets/689be169-5056-42dc-882b-b01b300e89a3" />
 Output Velocity and Spatial Coherence
